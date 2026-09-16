@@ -1,0 +1,62 @@
+/* ==========================================================================
+   DESIGN SYSTEM TOKENS - CLEANTECH PRO (B2B CORPORATE PALETTE)
+   ========================================================================== */
+
+:root {
+  /* Colors */
+  --bg-main: #f8fafc;
+  --bg-white: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --bg-dark: #0f172a;        /* Deep Corporate Blue */
+  --bg-dark-card: #1e293b;
+  --bg-nav: rgba(255, 255, 255, 0.92);
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-light: #f8fafc;
+
+  --accent-blue: #2563eb;       /* Primary Vivid Blue */
+  --accent-blue-hover: #1d4ed8;
+  --accent-gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  --accent-cyan: #06b6d4;
+
+  --border-color: #e2e8f0;
+  --border-dark: rgba(255, 255, 255, 0.1);
+  --error-color: #ef4444;
+  --success-color: #10b981;
+
+  /* Typography */
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --fs-xs: 0.75rem;    /* 12px */
+  --fs-sm: 0.875rem;   /* 14px */
+  --fs-base: 1rem;     /* 16px */
+  --fs-md: 1.125rem;   /* 18px */
+  --fs-lg: 1.25rem;    /* 20px */
+  --fs-xl: 1.5rem;     /* 24px */
+  --fs-2xl: 2rem;      /* 32px */
+  --fs-3xl: 2.5rem;    /* 40px */
+  --fs-4xl: 3.25rem;   /* 52px */
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+
+  /* Dimensions & Radius */
+  --container-max: 1200px;
+  --header-height: 80px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}

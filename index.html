@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanTech Pro | Limpieza Técnica B2B sin sorpresas</title>
+  <meta name="description" content="Servicios de limpieza técnica B2B para oficinas, naves industriales, centros sanitarios y fin de obra con certificación ISO 9001.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#" class="logo">
+<img src="assets/img/Logo_1.png" alt="Icono CleanTech Pro" class="logo__img-icon" ></a>
+
+      <nav class="nav" id="nav-menu" aria-label="Navegación principal"> 
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li class="nav__item"><a href="#cobertura" class="nav__link">Cobertura</a></li>
+          <li class="nav__item"><a href="#garantias" class="nav__link">Garantías</a></li>
+          <li class="nav__item"><a href="#proceso" class="nav__link">Proceso</a></li>
+          <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="#contacto" class="nav__link btn btn--nav">Solicitar propuesta</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <span class="badge-dot"></span> LIMPIEZA TÉCNICA B2B
+          </div>
+          <h1 class="hero__title">Limpieza técnica B2B <span class="text-gradient">sin sorpresas</span></h1>
+          <p class="hero__description">Mantenimiento y desinfección técnica para oficinas, naves industriales, centros logísticos y superficies sanitarias. Auditorías periódicas e informes de cumplimiento.</p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary btn--large">Solicitar presupuesto B2B</a>
+            <a href="#cobertura" class="btn btn--secondary btn--large">Comprobar cobertura postal</a>
+          </div>
+          <div class="hero__trust">
+            <span class="trust-item">✓ Personal 100% asegurado</span>
+            <span class="trust-item">✓ Certificación ISO 9001</span>
+            <span class="trust-item">✓ Sin subcontratación</span>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__card-mockup">
+            <div class="mockup-header">
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-badge">Nivel de Desinfección A+</div>
+              <div class="mockup-img">
+                <div class="mockup-img-hero">
+                  <img src="assets/img/hero.png" alt="Instalaciones corporativas con mantenimiento técnico de limpieza" loading="eager">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Postal Code Coverage Search Widget Section -->
+    <section class="coverage section" id="cobertura">
+      <div class="container">
+        <div class="coverage__wrapper">
+          <div class="coverage__text">
+            <span class="section__subtitle">COBERTURA DIRECTA B2B</span>
+            <h2 class="section__title">Verifique la disponibilidad en su zona industrial o empresarial</h2>
+          </div>
+          <form class="coverage__form" id="coverage-form">
+            <div class="coverage__input-group">
+              <input type="text" id="cp-input" class="form-input" placeholder="Ej. 28001, 28901, 08001..." maxlength="5">
+              <button type="submit" class="btn btn--primary">Comprobar CP</button>
+            </div>
+            <div class="coverage__result" id="coverage-result"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="servicios">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">COBERTURA DE SERVICIOS</span>
+          <h2 class="section__title">Servicios de Limpieza Técnica B2B</h2>
+          <p class="section__description">Adaptados a la normativa específica de cada sector industrial y corporativo.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="card service-card">
+            <div class="service-card__icon">
+<img src="assets/img/icons/Building_04.svg" alt="Icono servicio oficinas" class="icon-img">            </div>
+            <h3 class="service-card__title">Oficinas & Coworkings</h3>
+            <p class="service-card__text">Mantenimiento diario de instalaciones corporativas, higienización de puestos de trabajo y gestión de consumibles.</p>
+            <ul class="service-card__list">
+              <li>Limpieza fuera de horario comercial</li>
+              <li>Tratamiento de suelos de moqueta / parquet</li>
+              <li>Desinfección de teclados y pantallas</li>
+            </ul>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <img src="assets/img/icons/fabrica.svg" alt="Icono servicio naves industriales" class="icon-img" width="24" height="24">
+            </div>
+            <h3 class="service-card__title">Naves Industriales & Logística</h3>
+            <p class="service-card__text">Limpieza mecanizada de grandes superficies, muelles de carga, maquinaria y viales interiores.</p>
+            <ul class="service-card__list">
+              <li>Fregado industrial automatizado</li>
+              <li>Desengrase de pavimentos técnicos</li>
+              <li>Gestión de residuos industriales</li>
+            </ul>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <img src="assets/img/icons/hospital.svg" alt="Icono servicio centros sanitarios" class="icon-img" width="24" height="24">
+            </div>
+            <h3 class="service-card__title">Centros Sanitarios & Clínicas</h3>
+            <p class="service-card__text">Protocolos de desinfección hospitalaria con virucidas homologados y trazabilidad de muestreo microbiológico.</p>
+            <ul class="service-card__list">
+              <li>Productos con registro de Sanidad</li>
+              <li>Eliminación de contaminación cruzada</li>
+              <li>Personal certificado en asepcia</li>
+            </ul>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <img src="assets/img/icons/hard_hat.svg" alt="Icono servicio limpieza fin de obra" class="icon-img" width="24" height="24">
+            </div>
+            <h3 class="service-card__title">Limpieza Fin de Obra</h3>
+            <p class="service-card__text">Acondicionamiento técnico de locales, oficinas o edificios tras reformas para una puesta en marcha inmediata.</p>
+            <ul class="service-card__list">
+              <li>Decapado y sellado de paramentos</li>
+              <li>Retirada de restos de pintura y silicona</li>
+              <li>Limpieza en profundidad de cristales</li>
+            </ul>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <img src="assets/img/icons/building_2.svg" alt="Icono servicio cristales y trabajos en altura" class="icon-img" width="24" height="24">
+            </div>
+            <h3 class="service-card__title">Cristales & Trabajos en Altura</h3>
+            <p class="service-card__text">Limpieza de fachadas acristaladas, muros cortina y claraboyas mediante personal técnico vertical certificado.</p>
+            <ul class="service-card__list">
+              <li>Equipos de agua osmotizada</li>
+              <li>Prevención de Riesgos (PRL) al día</li>
+              <li>Plataformas elevadoras propias</li>
+            </ul>
+          </article>
+
+          <article class="card service-card">
+            <div class="service-card__icon">
+              <img src="assets/img/icons/shield-01.svg" alt="Icono servicio mantenimiento técnico" class="icon-img" width="24" height="24">
+            </div>
+            <h3 class="service-card__title">Mantenimiento Técnico</h3>
+            <p class="service-card__text">Revisión de filtros de climatización, desinfección de conductos de aire y control técnico preventivo.</p>
+            <ul class="service-card__list">
+              <li>Control microbiológico del aire</li>
+              <li>Sustitución de filtros HEPA</li>
+              <li>Informes de auditoría trimestral</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guarantees Section (Dark Theme Accent Block) -->
+    <section class="guarantees section" id="garantias">
+      <div class="container">
+        <div class="guarantees__wrapper">
+          <div class="guarantees__content">
+            <span class="section__subtitle section__subtitle--light">COMPROMISO DE CALIDAD</span>
+            <h2 class="section__title section__title--light">Garantías operativas completas para su tranquilidad</h2>
+            <p class="guarantees__desc">Sustituimos el modelo tradicional por procesos estandarizados con supervisión técnica continua.</p>
+
+            <div class="guarantees__grid">
+              <div class="guarantee-card">
+                <span class="guarantee-card__val">100%</span>
+                <h3 class="guarantee-card__title">Personal en Plantilla</h3>
+                <p class="guarantee-card__text">Sin subcontrataciones. Todos nuestros operarios están dados de alta en Seguridad Social con convenio B2B.</p>
+              </div>
+
+              <div class="guarantee-card">
+                <span class="guarantee-card__val">1.2M€</span>
+                <h3 class="guarantee-card__title">Seguro Responsabilidad Civil</h3>
+                <p class="guarantee-card__text">Póliza integral para cubrir cualquier eventualidad en instalaciones o maquinaria de cliente.</p>
+              </div>
+
+              <div class="guarantee-card">
+                <span class="guarantee-card__val">0%</span>
+                <h3 class="guarantee-card__title">Subcontratas con Terceros</h3>
+                <p class="guarantee-card__text">Control directo de la calidad y de los protocolos de prevención de riesgos laborales (PRL).</p>
+              </div>
+
+              <div class="guarantee-card">
+                <span class="guarantee-card__val">ISO 9001</span>
+                <h3 class="guarantee-card__title">Calidad Certificada</h3>
+                <p class="guarantee-card__text">Procesos auditados anualmente bajo estándar internacional de gestión de calidad ambiental.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guarantees__visual">
+            <div class="guarantees__img-box">
+              <img src="assets/img/sanitizada.png" alt="Instalaciones industriales sanitizadas" class="guarantees__img" loading="lazy">
+              <div class="guarantees__img-overlay">
+                <span class="guarantees__badge">Instalaciones Sanitizadas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Steps Section -->
+    <section class="process section" id="proceso">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">METODOLOGÍA B2B</span>
+          <h2 class="section__title">¿Cómo empezamos a trabajar?</h2>
+          <p class="section__description">Un proceso ágil para evaluar, cotizar y poner en marcha el servicio sin interrumpir su actividad.</p>
+        </div>
+
+        <div class="process__list">
+          <div class="process-step">
+            <div class="process-step__icon">1</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Toma de datos y visita técnica</h3>
+              <p class="process-step__text">Un gestor de cuenta visita sus instalaciones para analizar metros cuadrados, pavimentos, horarios y necesidades específicas.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__icon">2</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Propuesta Técnica & SLA Cerrado</h3>
+              <p class="process-step__text">Presentación del plan de trabajo con cuadrantes de horas, productos a utilizar y cuadro de precios cerrado sin sorpresas.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__icon">3</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Prueba de Servicio o Inicio de Contrato</h3>
+              <p class="process-step__text">Inicio de operativa con supervisión presencial durante la primera semana para ajustar todos los detalles del servicio.</p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__icon">4</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Control Continuo y Auditoría</h3>
+              <p class="process-step__text">Inspecciones periódicas sorpresa por parte del departamento de calidad y reportes digitales mensuales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonios">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">REFERENCIAS</span>
+          <h2 class="section__title">Lo que dicen nuestros clientes corporativos</h2>
+        </div>
+
+        <div class="testimonials__grid">
+          <article class="card testimonial-card">
+            <blockquote class="testimonial-card__quote">
+              "Destacamos su profesionalidad en el mantenimiento de nuestras 3 naves logísticas. Cumplimiento estricto de los horarios sin interferir en la carga de camiones."
+            </blockquote>
+            <cite class="testimonial-card__author">
+              <span class="author__name">Javier Beltrán</span>
+              <span class="author__role">Director de Operaciones en LogiTrans Madrid</span>
+            </cite>
+          </article>
+
+          <article class="card testimonial-card">
+            <blockquote class="testimonial-card__quote">
+              "El cambio a CleanTech Pro nos dio la tranquilidad de contar con personal cualificado e higienización certificada de acuerdo a las exigencias del sector sanitario."
+            </blockquote>
+            <cite class="testimonial-card__author">
+              <span class="author__name">Dra. Marta Soler</span>
+              <span class="author__role">Gerente de Clínica Dental BioSalud</span>
+            </cite>
+          </article>
+
+          <article class="card testimonial-card">
+            <blockquote class="testimonial-card__quote">
+              "Respondieron en menos de 24h para la limpieza fin de obra de nuestras nuevas oficinas en el centro. El acabado de suelos y cristales fue impecable."
+            </blockquote>
+            <cite class="testimonial-card__author">
+              <span class="author__name">Ignacio Vega</span>
+              <span class="author__role">Head of Real Estate en TechHub</span>
+            </cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">RESOLVEMOS SUS DUDAS</span>
+          <h2 class="section__title">Preguntas Frecuentes</h2>
+        </div>
+
+        <div class="faq__list">
+          <details class="faq-item">
+            <summary class="faq-item__header">
+              <h3 class="faq-item__title">¿Tienen cobertura de servicio en horario nocturno o fines de semana?</h3>
+              <span class="faq-item__icon">+</span>
+            </summary>
+            <div class="faq-item__content">
+              <p>Sí. Adaptamos los cuadrantes operativamente para prestar servicio en los tramos horarios que menor impacto tengan en la producción o actividad comercial del cliente.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__header">
+              <h3 class="faq-item__title">¿Qué incluye la propuesta técnica B2B?</h3>
+              <span class="faq-item__icon">+</span>
+            </summary>
+            <div class="faq-item__content">
+              <p>El desglose completo de horas de personal, productos específicos homologados por Sanidad, maquinaria requerida, póliza de responsabilidad civil y frecuencia de supervisión.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__header">
+              <h3 class="faq-item__title">¿Cómo gestionan las suplencias por bajas o vacaciones?</h3>
+              <span class="faq-item__icon">+</span>
+            </summary>
+            <div class="faq-item__content">
+              <p>Contamos con un retén de personal corremantas en plantilla que cubre de forma inmediata cualquier ausencia sin alterar la calidad del servicio pactado.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__header">
+              <h3 class="faq-item__title">¿Cuál es la duración mínima del contrato?</h3>
+              <span class="faq-item__icon">+</span>
+            </summary>
+            <div class="faq-item__content">
+              <p>Para mantenimientos continuados se establece un acuerdo anual con cláusulas de cancelación por incumplimiento de SLA de 30 días.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA & Contact Form Section -->
+    <section class="contact section" id="contacto">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__info">
+            <span class="section__subtitle section__subtitle--light">SOLICITE SU AUDITORÍA</span>
+            <h2 class="section__title section__title--light">Optimice la gestión de limpieza de su negocio hoy mismo</h2>
+            <p class="contact__text">Rellene el formulario y un técnico especialista se pondrá en contacto en menos de 4 horas laborables.</p>
+            <div class="contact__direct">
+              <p><strong>Teléfono Directo B2B:</strong> +34 900 800 900</p>
+              <p><strong>Email Corporativo:</strong> b2b@cleantechpro.es</p>
+              <p><strong>Atención Comercial:</strong> Lunes a Viernes 08:00 - 19:00</p>
+            </div>
+          </div>
+
+          <form class="contact__form" id="contact-form" novalidate>
+            <h3 class="form-title">Solicitud de Propuesta Técnica</h3>
+            
+            <div class="form-group">
+              <label for="empresa" class="form-label">Nombre de la Empresa / Razón Social</label>
+              <input type="text" id="empresa" name="empresa" class="form-input" placeholder="Ej. Logística Global S.L." required>
+              <span class="form-error" id="error-empresa"></span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre" class="form-label">Persona de Contacto</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Su nombre" required>
+                <span class="form-error" id="error-nombre"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Corporativo</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="nombre@empresa.com" required>
+                <span class="form-error" id="error-email"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="sector" class="form-label">Sector</label>
+                <select id="sector" name="sector" class="form-input" required>
+                  <option value="">Seleccione sector</option>
+                  <option value="oficinas">Oficinas / Corporativo</option>
+                  <option value="industrial">Industrial / Logística</option>
+                  <option value="sanitario">Sanitario / Clínicas</option>
+                  <option value="obra">Fin de Obra</option>
+                </select>
+                <span class="form-error" id="error-sector"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="superficie" class="form-label">Superficie Aprox. (m²)</label>
+                <input type="number" id="superficie" name="superficie" class="form-input" placeholder="Ej. 500" required>
+                <span class="form-error" id="error-superficie"></span>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">Solicitar Propuesta Personalizada</button>
+            <div class="form-success-msg" id="form-success">¡Solicitud enviada con éxito! Nos pondremos en contacto en breve.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#" class="logo logo--light">
+          <span class="logo__icon">CT</span> CleanTech<span class="logo__highlight">Pro</span>
+        </a>
+        <p>Especialistas en Limpieza Técnica B2B y Mantenimiento de Espacios Corporativos.</p>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 CleanTech Pro. Todos los derechos reservados.</p>
+        <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">&uarr;</button>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
