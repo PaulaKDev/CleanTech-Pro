@@ -6,7 +6,7 @@ Una landing page corporativa orientada a servicios B2B (oficinas, naves industri
 
 ## 🚀 Demo En Vivo
 
-- **Sitio web:** [https://tu-usuario.vercel.app](https://tu-usuario.vercel.app)
+- **Sitio web:** https://clean-tech-pro-six.vercel.app
 - **Repositorio:** https://github.com/PaulaKDev/CleanTech-Pro
 
 
