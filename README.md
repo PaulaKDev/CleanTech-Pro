@@ -2,8 +2,7 @@
 
 Una landing page corporativa orientada a servicios B2B (oficinas, naves industriales, centros sanitarios y fin de obra) enfocada en **alta conversión (CRO), accesibilidad, maquetación semántica y diseño responsive**.
 
-![CleanTech Pro Preview]((<img width="1200" height="798" alt="image" src="https://github.com/user-attachments/assets/e9ce04f8-1a23-496d-9bff-ad5c14aba940" />
-))
+<img width="1200" height="798" alt="image" src="https://github.com/user-attachments/assets/e9ce04f8-1a23-496d-9bff-ad5c14aba940" />
 
 ## 🚀 Demo En Vivo
 
