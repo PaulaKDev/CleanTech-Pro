@@ -2,7 +2,7 @@
 
 Una landing page corporativa orientada a servicios B2B (oficinas, naves industriales, centros sanitarios y fin de obra) enfocada en **alta conversión (CRO), accesibilidad, maquetación semántica y diseño responsive**.
 
-![CleanTech Pro Preview](assets/img/hero-clean-office.webp)
+![CleanTech Pro Preview]((https://vercel.com/paulakdevs-projects/clean-tech-pro/9CBeiDGECZ6Gaj9VKdDtf8WZ3GL8))
 
 ## 🚀 Demo En Vivo
 
