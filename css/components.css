@@ -39,10 +39,15 @@
 }
 
 .btn--nav {
-  padding: 0.5rem 1.25rem;
-  background-color: var(--accent-blue);
+ background-color: var(--accent-blue);
   color: #fff;
-  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+}
+
+.btn--nav:hover {
+  background-color: var(--accent-blue-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
 }
 
 .btn--large {
